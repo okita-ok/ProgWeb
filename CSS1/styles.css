@@ -1,0 +1,12 @@
+div{
+    background-color: lightgray;
+    border: 10px solid black;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 64px;
+    border-bottom-left-radius: 64px;
+    border-bottom-right-radius: 16px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
