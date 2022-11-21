@@ -1,0 +1,29 @@
+div{
+    background-color: white;
+    border: 7px solid lightsalmon;
+    max-width: 300px;
+    opacity: 0.9;
+    box-shadow: 4px 4px 6px 2px black, 4px 4px 6px 1px black inset;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: 250px;
+
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: lightcyan;
+    background-image: url(ginzanonsen.jfif);
+    background-size: 1526px;
+    background-position: top;
+    background-repeat: no-repeat;
+}
