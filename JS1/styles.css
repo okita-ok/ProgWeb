@@ -1,0 +1,13 @@
+td{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item{
+    margin: 5px;
+}
