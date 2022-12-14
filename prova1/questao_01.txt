@@ -1,0 +1,17 @@
+Erro 1: Não há a presença de um <body> no código, somente um <head>.
+Seria necessário colocar todo o código entre as linhas 15 e 33 dentro de um body.
+
+Erro 2: Na linha 18, é possível visualizar a tag <strong> aberta, porém esta tag não foi fechada.
+Será necessário inserir um </strong>.
+
+Erro 3: Nas linhas 10 à 12, é possível visualizar que há um erro na maneira que são manipulados os estilos, no qual estão trocados.
+Será necessário trocar o "background-color" e o "#para" de lugar.
+Ex:
+#para{
+    background-color: blue;
+}
+
+Erro 4: Na linha 4 a maneira de escrever um comentário está incorreta.
+Seria necessário utilizar <! *texto* > para funcionar como um comentário.
+
+Ex: <! Isto é um comentário, não deve aparecer na página >
