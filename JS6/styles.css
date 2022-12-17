@@ -1,0 +1,15 @@
+input{
+    width: 50px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.item{
+    background-color: red;
+    margin: 3px;
+}
