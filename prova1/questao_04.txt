@@ -1,3 +1,6 @@
+Conceito de hoisting parcialmente correto. A função só poderá ser chamada dentro do escopo no qual ela foi declarada. Exemplo de código correto.
+Nota: 1.5
+
 O hoisting é quando o Javascript verifica a presença de funções antes da execução do código.
 Por essa razão, uma função poderá ser chamada em qualquer local do código, independente de onde a função em si está localizada no código.
 

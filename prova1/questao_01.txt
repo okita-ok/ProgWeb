@@ -1,3 +1,6 @@
+Todos os erros foram encontrados corretamente.
+Nota 2.0
+
 Erro 1: Não há a presença de um <body> no código, somente um <head>.
 Seria necessário colocar todo o código entre as linhas 15 e 33 dentro de um body.
 
