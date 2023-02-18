@@ -9,10 +9,61 @@
   position: absolute;
 }
 
+#score {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: white;
+  z-index: 2;
+}
+
+.gameover {
+  position: absolute;
+  z-index: 1;
+  background-color: black;
+  opacity: 0.5;
+  display: flex;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: white;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  position: absolute;
+  z-index: 2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: white;
+  border: 5, black;
+  background-color: darkviolet;
+  text-align: center;
+}
+
+.life {
+  position: absolute;
+  z-index: 1;
+}
+
 .shot {
   position: absolute;
 }
 
 .enemy-ship {
+  position: absolute;
+}
+
+.enemyUfo{
+  position: absolute;
+}
+
+.meteorBig{
+  position: absolute;
+}
+
+.meteorSmall{
   position: absolute;
 }
