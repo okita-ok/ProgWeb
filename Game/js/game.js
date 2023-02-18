@@ -54,7 +54,6 @@
     else{
       if (e.key === " ") start();
     }
-    if (e.key === "f") end_game();
   });
 
   class Space {
@@ -134,7 +133,7 @@
         }
       space.move();
     }
-    collision(){ //mudar isso aqui
+    collision(){
       // naves inimigas
       let navesInimigas = document.getElementsByClassName("enemy-ship");
       // ovnis
